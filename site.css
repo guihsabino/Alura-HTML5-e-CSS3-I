@@ -1,7 +1,7 @@
 /* Titulo da pagina */
 
 header h1 {
-    font-size: 50px;
+    font-size: 60px;
     background-color: #851944;
     color: #fafffa;
     text-align: center;
@@ -27,7 +27,16 @@ body {
 
 p {
     text-align: justify;
-    font-family: Crimson Text
+    font-family: Crimson Text;
+    padding: 20px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
 }
 
 /* Rodape */
@@ -52,15 +61,17 @@ blockquote {
 
 /* Menu lateral de links de navegacao  */
 
-aside, aside div h1 {
+aside div h1 {
     text-align: center;
-    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 
 aside div {
     background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
+    font-family: "Open Sans Condensed", sans-serif;
     border: 10px solid black;
     padding: 20px;
     width: 250px;
@@ -70,6 +81,7 @@ aside div {
 }
 
 nav ul, a {
+    padding: 25px;
     list-style-type: none;
     font-family: "Open Sans Condensed", sans-serif;
     color: inherit;
@@ -87,6 +99,7 @@ main a {
 main div {
     width: 720px;
     margin: auto;
+    padding: 30px 0;
     line-height: 1.5;
 }
 
@@ -94,7 +107,5 @@ main div {
 
 a img {
     border: 10px solid black;
-    margin: auto;
-    text-align: center;
     list-style-type: none;
 }
