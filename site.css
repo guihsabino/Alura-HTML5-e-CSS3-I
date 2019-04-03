@@ -1,0 +1,100 @@
+/* Titulo da pagina */
+
+header h1 {
+    font-size: 50px;
+    background-color: #851944;
+    color: #fafffa;
+    text-align: center;
+    font-family: "Open Sans Condensed";
+    padding: 25px;
+    margin: 0;
+    border-bottom: 10px solid black;
+}
+
+/* Subtitulos durante o conteudo */
+
+main h2 {
+    font-size: 30px;
+    font-family: "Open Sans Condensed";
+}
+
+/* Edicoes no corpo do codigo */
+
+body {
+    font-size: 120%;
+    background-color: #F2FFFC
+}
+
+p {
+    text-align: justify;
+    font-family: Crimson Text
+}
+
+/* Rodape */
+
+rodape footer {
+    font-size: 20px;
+    color: #F2FFFC;
+    background-color: black;
+    padding: 8px;
+}
+
+/* Citacoes */
+
+blockquote {
+    background-color: #D9E5E3;
+    padding: 20px;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Menu lateral de links de navegacao  */
+
+aside, aside div h1 {
+    text-align: center;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside div {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+    border: 10px solid black;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+nav ul, a {
+    list-style-type: none;
+    font-family: "Open Sans Condensed", sans-serif;
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Itens contidos no conteudo Main*/
+
+main a {
+    color: #851944;
+}
+
+/* Conteudo dentro do div dentro do main */
+
+main div {
+    width: 720px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+/* Edicoes pertinentes a imagem */
+
+a img {
+    border: 10px solid black;
+    margin: auto;
+    text-align: center;
+    list-style-type: none;
+}
