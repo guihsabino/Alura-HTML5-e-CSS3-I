@@ -17,6 +17,8 @@ header h1 {
 main h2 {
     font-size: 30px;
     font-family: "Open Sans Condensed";
+    clear: both;
+    margin: 8px;
 }
 
 /* Edicoes no corpo do codigo */
@@ -47,6 +49,7 @@ rodape footer {
     color: #F2FFFC;
     background-color: black;
     padding: 8px;
+    clear: both;
 }
 
 /* Citacoes */
@@ -58,6 +61,16 @@ blockquote {
     width: 250px;
     margin: 0;
     box-sizing: border-box;
+}
+
+.Fiat {
+    float: right;
+    margin-left: 20px;
+}
+
+.Petrobras {
+    float: left;
+    margin-right: 20px;
 }
 
 /* Menu lateral de links de navegacao  */
@@ -74,12 +87,14 @@ aside div {
     color: #F2FFFC;
     text-align: center;
     font-family: "Open Sans Condensed", sans-serif;
-    border: 10px solid black;
-    padding: 20px;
-    width: 250px;
-    height: 300px;
+    padding: 1%;
     box-sizing: border-box;
     margin: auto;
+    float: right;
+    clear: right;
+    width: 15%;
+    position: relative;
+    top: 190px;
 }
 
 aside ul, a {
@@ -110,16 +125,20 @@ main a {
 main div {
     width: 720px;
     margin: auto;
-    padding: 30px 0;
+    padding: 30px 14%;
     line-height: 1.5;
+    float: left;
 }
 
-/* Edicoes pertinentes a imagem */
+/* Edicoes pertinentes a foto */
 
-foto img {
-    border: 10px solid black;
-    list-style-type: none;
-    margin: auto;
+foto a {
+    float: right;
+    padding: 0%;
+    line-height: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 /* Edicoes nos Artigos, e entre eles */
@@ -136,4 +155,13 @@ article {
     font-size: 100%;
     padding: 1px;
     border: 1px solid grey;
+}
+
+/* Borda da imagem e do menu de navegação */
+
+foto a, aside div {
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+    float: right;
+    clear: right;
 }
